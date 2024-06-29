@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: rgb(34, 34, 34);
+}
+.card{
+    height:70vh;
+    width:50vh;
+    background-color: brown;
+    margin:0 auto;
+    margin-top:4rem;
+    border-radius: 2rem;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-items: start;
+    
+}
+.search{
+    height:6rem;
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:0.5rem;
+}
+.search button{
+    height:2.3rem;
+    width: 2.3rem;
+    border:none;
+    margin-left: 0.5rem;;
+    border-radius: 1rem;;
+    border-radius: 50%;
+    box-shadow: 0.1rem 0.1rem 0.1rem black;
+    transition-duration: 1s;
+}
+.search input{
+    height:2rem;
+    width:13rem;
+    border: none;
+    font-size: 15px;
+    color:black;
+    border-radius: 2rem;
+    padding-left:1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+.search button img{
+    height:0.8rem;
+    width: 0.8rem;
+}
+.search button:hover{
+    box-shadow: 0.2rem 0.3rem 0.1rem black;
+}
+.weather{
+    height:10rem;
+    width:100%;
+    position:relative;
+    display: flex;
+    /* left: 5rem; */
+    top:-3rem;
+    /* text-align: center; */
+    justify-content: center;
+    
+}
+.weather img{
+    height:10rem;
+    width:10rem;
+    position: relative;
+    /* top:-2rem; */
+}
+.temp{
+    height:3.5rem;
+    width:100%;
+    position: relative;
+    top:-4rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffff;
+}
+.city{
+    height:3.5rem;
+    width:100%;
+    position: relative;
+    top:-3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ffff;
+    
+}
+.city h2{
+    font-weight: 100;
+}
+.details{
+    height:8rem;
+    width:100%;
+    /* background-color: red; */
+    position: relative;
+    top:-3rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:0.5rem;
+}
+.humidity{
+    margin-left:3rem;
+    height:100%;
+    width:40%;
+}
+.humidity img{
+    height:4rem;
+    width:4rem;
+}
+.humidity h2{
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top:0.4rem;
+    font-weight: 100;
+}
